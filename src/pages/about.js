@@ -49,11 +49,6 @@ const AnimatedNumbers = ({ value }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
 
-    
-    
-  
-    
-
     return <span ref={ref}></span>
     
 }
