@@ -76,7 +76,8 @@ const NavBar = () => {
               <CustomLink href="/" Title="Home" className='mr-4' />
               <CustomLink href="/about"Title="About" className='mx-4'/>
               <CustomLink href="/projects" Title="Projects" className='mx-4'/>
-              <CustomLink href="mailto:shubhamdevkamble707@gmail.com"Title="Contact Me" className='ml-4'/>
+              <CustomLink href="https://wa.me/9028143707?text=Hello%2C%20I%20need%20help%21
+"Title="Contact Me" className='ml-4'/>
               
           </nav>
 
