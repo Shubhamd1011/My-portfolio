@@ -7,7 +7,7 @@ const project = () => {
   return (
     <>
        <Head>
-                <title>Shubham's | Projects Page</title>
+                <title>Shubham | Projects Page</title>
                 <meta name='description' content='any description'/>
       </Head>
       

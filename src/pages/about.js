@@ -34,7 +34,7 @@ const AnimatedNumbers = ({ value }) => {
             }
         })
      
-    }, [])
+    }, [springValue, value]);
 
 
     
@@ -52,7 +52,7 @@ function about() {
         <>
             
             <Head>
-                <title>Shubham's | About Page</title>
+                <title>Shubham | About Page</title>
                 <meta name='description' content='any description'/>
             </Head>
 
@@ -65,19 +65,19 @@ function about() {
 
 
                             <p className='font-medium'>
-                                Hi, I'm Shubham, a web developer and UI/UX designer with a passion for creating beautiful, functional,
+                                Hi, Im Shubham, a web developer and UI/UX designer with a passion for creating beautiful, functional,
                                 and user-centered digital webpages. I am always looking for new and innovative ways to bring my visions to life.
                             </p>
 
 
                             <p className='my-4 font-medium'>
-                                I believe that design is about more than just making things look pretty – it's about solving problems and
+                                I believe that design is about more than just making things look pretty – its about solving problems and
                                 creating intuitive, enjoyable experiences for users.
                             </p>
 
 
                             <p className='font-medium'>
-                                Whether I'm working on a website I bring my commitment to design excellence and user-centered thinking to
+                                Whether Im working on a website I bring my commitment to design excellence and user-centered thinking to
                                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                             </p>
                         </div>
