@@ -9,17 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "framer-motion": "^10.18.0",
-    "next": "14.1.1",
+    "framer-motion": "^10.6.0",
+    "next": "^15.0.3",
+    "postcss": "^8.4.49",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.4.15"
   },
-  "devDependencies": {
-    "@svgr/webpack": "^8.1.0",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14"
-  }
+  "description": "![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;\r ![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;\r ![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubhamd1011/Animative-Portfolio.git"
+  },
+  "author": "shubham d",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubhamd1011/Animative-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Shubhamd1011/Animative-Portfolio#readme"
 }
