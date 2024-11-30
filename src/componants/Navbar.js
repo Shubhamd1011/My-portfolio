@@ -155,7 +155,7 @@ const NavBar = () => {
                   <CustomMobileLink href="/" Title="Home" className='' toggle={ handleClick} />
               <CustomMobileLink href="/about"Title="About" className='' toggle={ handleClick}/>
               <CustomMobileLink href="/projects" Title="Projects" className='' toggle={ handleClick}/>
-              <CustomMobileLink href="/articles"Title="Contact Me" className='' toggle={ handleClick}/>
+              <CustomMobileLink href="https://wa.me/9028143707?text=Hello%2C%20I%20need%20help%21"Title="Contact Me" className='' toggle={ handleClick}/>
               
           </nav>
 
