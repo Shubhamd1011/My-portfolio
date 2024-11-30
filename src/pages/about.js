@@ -27,27 +27,21 @@ const AnimatedNumbers = ({ value }) => {
         }, [isInView, value, motionValue])
     
     
-    // useEffect(() => {
-    //     springValue.on("change", (latest) => {
-    //         if (ref.current && latest.toFixed(0) <= value) {
-    //             ref.current.textContent = latest.toFixed(0);
-    //         }
-    //     })
-     
-    // }, [])
-
-
     useEffect(() => {
-    springValue.on("change", (latest) => {
-        if (ref.current && latest.toFixed(0) <= value) {
-            ref.current.textContent = latest.toFixed(0);
-        }
-    });
-    return () => {
-        springValue.off("change");
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-}, []);
+        springValue.on("change", (latest) => {
+            if (ref.current && latest.toFixed(0) <= value) {
+                ref.current.textContent = latest.toFixed(0);
+            }
+        })
+     
+    }, [])
+
+
+    
+    
+    
+  
+    
 
     return <span ref={ref}></span>
     
