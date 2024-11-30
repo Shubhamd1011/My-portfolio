@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
-import { Title } from 'chart.js'
 import { useRouter } from 'next/router'
 import { Twinkle_Star } from 'next/font/google'
 import { TwitterIcon, GithubIcon, LinkedInIcon, PinterestIcon, InstagramIcon, WhatsAppIcon, SunIcon, MoonIcon } from './Icons'
